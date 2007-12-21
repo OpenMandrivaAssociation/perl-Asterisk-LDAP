@@ -8,6 +8,7 @@ URL:		http://projects.alkaloid.net
 Source0:	http://projects.alkaloid.net/dist/asterisk-ldap-%{version}.tar.bz2
 BuildRequires:	perl-devel
 Buildarch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module should make it simple to write scripts that customize Asterisk's
