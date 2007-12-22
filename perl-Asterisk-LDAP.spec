@@ -1,7 +1,7 @@
 Summary:	Asterisk::LDAP - Methods for generating Asterisk configuration from LDAP
 Name:		perl-Asterisk-LDAP
 Version:	0.6.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://projects.alkaloid.net
