@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.6.0
-Release:	%mkrel 3
+Release:	%mkrel 5
 Summary:	Methods for generating Asterisk configuration from LDAP
 License:	GPL or Artistic
 Group:		Development/Perl
