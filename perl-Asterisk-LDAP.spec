@@ -8,7 +8,7 @@ Release:	11
 Summary:	Methods for generating Asterisk configuration from LDAP
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://projects.alkaloid.net/e107_plugins/content/content.php?content.6
+Url:		https://projects.alkaloid.net/e107_plugins/content/content.php?content.6
 Source0:	http://projects.alkaloid.net/dist/asterisk-ldap-%{upstream_version}.tar.bz2
 
 BuildRequires:	perl-devel
