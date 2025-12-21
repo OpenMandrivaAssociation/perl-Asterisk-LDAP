@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://projects.alkaloid.net/e107_plugins/content/content.php?content.6
 Source0:	http://projects.alkaloid.net/dist/asterisk-ldap-%{upstream_version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
