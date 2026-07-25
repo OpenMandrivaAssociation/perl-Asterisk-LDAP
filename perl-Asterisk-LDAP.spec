@@ -2,8 +2,8 @@
 %define upstream_version 0.6.0
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	11
+Version:	%{upstream_version}
+Release:	12
 
 Summary:	Methods for generating Asterisk configuration from LDAP
 License:	GPL+ or Artistic
