@@ -1,15 +1,13 @@
 %define upstream_name    Asterisk-LDAP
-%define upstream_version 0.6.0
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	12
+Version:	0.6.0
+Release:	13
 
 Summary:	Methods for generating Asterisk configuration from LDAP
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://projects.alkaloid.net/e107_plugins/content/content.php?content.6
-Source0:	http://projects.alkaloid.net/dist/asterisk-ldap-%{upstream_version}.tar.bz2
+Source0:	http://projects.alkaloid.net/dist/asterisk-ldap-%{version}.tar.bz2
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -22,7 +20,7 @@ have been written with customization of the final product (configuration files)
 in mind.
 
 %prep
-%setup -q -n asterisk-ldap-%{upstream_version}
+%setup -q -n asterisk-ldap-%{version}
 
 # fix attribs
 chmod -R 755 examples
@@ -47,9 +45,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Feb 12 2010 Jérôme Quelin <jquelin@mandriva.org> 0.6.0-7mdv2011.0
 + Revision: 504578
-- rebuild using %%perl_convert_version
-
-* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.6.0-6mdv2010.0
+- rebuild using %0.6.0 Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.6.0-6mdv2010.0
 + Revision: 430262
 - rebuild
 
